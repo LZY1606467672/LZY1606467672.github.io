@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>js函数式编程</title>
+    <url>/2020/04/14/js%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/</url>
+    <content><![CDATA[<h1 id="javascript-demo"><a href="#javascript-demo" class="headerlink" title="javascript_demo"></a>javascript_demo</h1><h2 id="一、forEach-、map-、reduce-、filter-、some-、every-小结"><a href="#一、forEach-、map-、reduce-、filter-、some-、every-小结" class="headerlink" title="一、forEach()、map()、reduce()、filter()、some()、every()小结"></a>一、forEach()、map()、reduce()、filter()、some()、every()小结</h2><h3 id="1、forEach"><a href="#1、forEach" class="headerlink" title="1、forEach():"></a>1、forEach():</h3><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> arr = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>];</span><br><span class="line">arr.forEach( <span class="function">(<span class="params">item,index,arr</span>) =&gt;</span> &#123;</span><br><span class="line">    <span class="built_in">console</span>.log(item) <span class="comment">//结果为1,2,3,4</span></span><br><span class="line">&#125; )</span><br></pre></td></tr></table></figure>
+
+<h3 id="2、map"><a href="#2、map" class="headerlink" title="2、map():"></a>2、map():</h3><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">//map遍历数组，返回一个新数组，不改变原数组的值。</span></span><br><span class="line"><span class="keyword">var</span> arr = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>];</span><br><span class="line">arr.map(<span class="function">(<span class="params">item,index,arr</span>) =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">return</span> item*<span class="number">10</span> <span class="comment">//新数组为10,20,30,40</span></span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+
+<p>​   注：有输出的用map()，遍历整个数组，单独做运算处理的不需要输出的用forEach()</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>post hehe</title>
+    <url>/2020/04/14/post-hehe/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+</search>
